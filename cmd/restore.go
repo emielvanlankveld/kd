@@ -1,8 +1,8 @@
 package cmd
 
 import (
+	"github.com/emielvanlankveld/gsql/pkg/restore"
 	"github.com/spf13/cobra"
-	"github.com/voormedia/kd/pkg/restore"
 )
 
 var cmdRestore = &cobra.Command{

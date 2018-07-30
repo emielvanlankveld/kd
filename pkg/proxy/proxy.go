@@ -10,9 +10,9 @@ import (
 	"strings"
 
 	"github.com/AlecAivazis/survey"
+	"github.com/emielvanlankveld/gsql/pkg/util"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/pkg/errors"
-	"github.com/voormedia/kd/pkg/util"
 )
 
 // Run Google Cloud SQL proxy container

@@ -1,8 +1,8 @@
 package cmd
 
 import (
+	"github.com/emielvanlankveld/gsql/pkg/proxy"
 	"github.com/spf13/cobra"
-	"github.com/voormedia/kd/pkg/proxy"
 )
 
 var cmdProxy = &cobra.Command{

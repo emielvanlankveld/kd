@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/AlecAivazis/survey"
+	"github.com/emielvanlankveld/gsql/pkg/util"
 	"github.com/pkg/errors"
-	"github.com/voormedia/kd/pkg/util"
 )
 
 // Run download and restore of a Google Cloud SQL database

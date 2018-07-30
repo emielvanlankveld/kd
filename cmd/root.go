@@ -1,19 +1,18 @@
 package cmd
 
 import (
+	"github.com/emielvanlankveld/gsql/pkg/util"
 	"github.com/spf13/cobra"
-	"github.com/voormedia/kd/pkg/util"
 )
 
 var version = "master"
-var log = util.NewLogger("kd")
+var log = util.NewLogger("gsql")
 
 var verbose bool
 
 var cmdRoot = &cobra.Command{
-	Use:   "kd",
-	Short: "Build and deploy apps to k8s cluster",
-	BashCompletionFunction: customCompletion,
+	Use:   "gsql",
+	Short: "Perform actions on Google Cloud SQL databases.",
 }
 
 func init() {
