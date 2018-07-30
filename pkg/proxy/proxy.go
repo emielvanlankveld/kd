@@ -55,7 +55,7 @@ func Run(log *util.Logger) error {
 	}
 
 	args := []string{
-		"-instances", connectionName + "=tcp:3306",
+		"-instances", connectionName + "=tcp:3307",
 		"-credential_file", credentialFile,
 	}
 
